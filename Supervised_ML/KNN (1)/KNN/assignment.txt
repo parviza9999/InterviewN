@@ -1,0 +1,12 @@
+Fill in your answers (max 25 marks)
+1. Did you save scatterplot.png: Y/N? [5 Marks]
+2. Write your observations about the scatter plot. [5 Marks]
+Answer(max 200 words):
+3. Write your answer for: Model Accuracy with K=3: ? [5 Marks]
+4. Did you save elbow.png: Y/N? [5 Marks]
+5. Write your observations about the Elbow plot. Which  is the most optimum value of K. [5 Marks]
+Answer(max 200 words):
+
+
+
+

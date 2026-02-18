@@ -1,0 +1,7 @@
+Fill in your answers (max 25 marks)
+1. Did you save your full depth  tree as tree_full.png: Y/N (2 Marks)
+2. how many levels deep was the "Full Tree":? (3 Marks)
+3. Did you save your pruned depth  tree as tree_pruned.png: Y/N (5 Marks)
+4. Record the accuracy scores for both the "Full Tree" and the "Pruned Tree" (Depth=3). Did the accuracy decrease significantly when you limited the depth? Summarize your findings in less than 200 words (5 Marks)
+5. Find a "Leaf Node" (a node with no children) in your pruned tree plot. What is the gini value displayed in that box?  (5 Marks)
+6. Describe one specific decision path in the full tree that looks like it might be "memorizing" noise (e.g., a node isolating a single sample). (5 Marks) 
