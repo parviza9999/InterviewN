@@ -38,7 +38,7 @@ The Bank Account Fraud / BAF Suite may be used in a later phase for fairness, bi
 ## Team Members
 
 - Parviz
-- Shankar
+- ??
 
 ## Status
 
