@@ -1,0 +1,18 @@
+# Do not commit raw datasets
+data/raw/
+*.csv
+*.zip
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoint folders
+.ipynb_checkpoints/
+
+# Model artifacts
+model_artifacts/
+*.pkl
+*.joblib
+*.keras
+*.h5
