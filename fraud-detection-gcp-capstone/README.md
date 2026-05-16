@@ -7,6 +7,20 @@ This capstone project develops an end-to-end fraud detection system using machin
 ## Dataset Selected
 
 The project will use only one dataset:
+# Data Folder
+
+## Dataset Used
+
+This project uses Option 1 only:
+
+**Credit Card Fraud Detection Dataset**
+
+Expected dataset filename:
+creditcard.csv
+Dataset Source:
+Credit Card Fraud Detection Dataset
+Kaggle/ULB
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 **Option 1: Credit Card Fraud Detection Dataset**
 
