@@ -1,7 +1,8 @@
 """
 Preprocessing pipeline for the Fraud Detection GCP Capstone project.
 
-This script will handle train/test splitting, scaling, and leakage prevention.
+This module prepares the Credit Card Fraud Detection dataset for modeling.
+The scaler is fitted only on the training data to prevent data leakage.
 """
 
 from sklearn.model_selection import train_test_split
@@ -10,13 +11,13 @@ from sklearn.preprocessing import StandardScaler
 
 def split_data(df, target_column="Class", test_size=0.2, random_state=42):
     """
-    Split dataset into train and test sets.
+    Split dataset into train and test sets using stratification.
 
     Args:
         df: Input DataFrame.
-        target_column: Name of target column.
-        test_size: Test split size.
-        random_state: Random seed for reproducibility.
+        target_column: Target column name. For this dataset, the target is 'Class'.
+        test_size: Proportion of data to use for testing.
+        random_state: Seed for reproducibility.
 
     Returns:
         X_train, X_test, y_train, y_test
@@ -35,7 +36,10 @@ def split_data(df, target_column="Class", test_size=0.2, random_state=42):
 
 def scale_features(X_train, X_test):
     """
-    Fit scaler on training data only to prevent data leakage.
+    Scale features while preventing data leakage.
+
+    The scaler is fitted only on X_train. X_test is transformed using the
+    fitted training scaler.
 
     Args:
         X_train: Training features.
